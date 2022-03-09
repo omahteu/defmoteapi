@@ -35,6 +35,7 @@ ALLOWED_HOSTS = []
 INSTALLED_APPS = [
     'camareira',
     "corsheaders",
+    'caixa',
     'comanda',
     'django.contrib.admin',
     'django.contrib.auth',
@@ -51,6 +52,7 @@ INSTALLED_APPS = [
     'produto',
     'quartos',
     'rest_framework',
+    'usuarios',
 ]
 
 MIDDLEWARE = [
