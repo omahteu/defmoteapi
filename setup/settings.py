@@ -48,6 +48,7 @@ INSTALLED_APPS = [
     'emeil',
     'ig',
     'ocupacoes',
+    'painel',
     'patio',
     'produto',
     'quartos',
