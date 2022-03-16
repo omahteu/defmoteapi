@@ -6,6 +6,7 @@ class Caixa(models.Model):
     data = models.CharField(max_length=10, blank=True)
     entrada = models.CharField(max_length=10, blank=True)
     usuario = models.CharField(max_length=20, blank=True)
+    fundo = models.CharField(max_length=10, blank=True)
     total = models.CharField(max_length=10, blank=True)
     saida = models.CharField(max_length=10, blank=True)
     
