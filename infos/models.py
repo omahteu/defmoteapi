@@ -1,7 +1,7 @@
 from django.db import models
 
 
-class Cabeca(models.Model):
+class Infos(models.Model):
     objects = None
     datahora = models.CharField(max_length=10, blank=True)
     valor = models.CharField(max_length=10, blank=True)

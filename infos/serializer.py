@@ -1,8 +1,8 @@
 from rest_framework import serializers
-from infos.models import Cabeca
+from infos.models import Infos
 
 
-class CabecaSerializer(serializers.ModelSerializer):
+class InfosSerializer(serializers.ModelSerializer):
     class Meta:
-        model = Cabeca
+        model = Infos
         fields = "__all__"

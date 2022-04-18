@@ -1,8 +1,8 @@
 from rest_framework import viewsets
-from infos.models import Cabeca
-from infos.serializer import CabecaSerializer
+from infos.models import Infos
+from infos.serializer import InfosSerializer
 
 
-class CabecaViewSet(viewsets.ModelViewSet):
-    queryset = Cabeca.objects.all()
-    serializer_class = CabecaSerializer
+class InfosViewSet(viewsets.ModelViewSet):
+    queryset = Infos.objects.all()
+    serializer_class = InfosSerializer
