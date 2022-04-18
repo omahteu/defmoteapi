@@ -25,11 +25,11 @@ from quartos.views import QuartoViewSet
 from ocupacoes.views import OcupacaoViewSet
 from index.views import DadosViewSet
 from comanda.views import ComandaViewSet
-from header.views import CabecaViewSet
 from patio.views import PatioViewSet
 from usuarios.views import UsuarioViewSet
 from caixa.views import CaixaViewSet
 from painel.views import PainelViewSet
+from infos.views import CabecaViewSet
 
 router = routers.DefaultRouter()
 router.register('produtos', ProdutoViewSets, basename='produtos')
@@ -40,11 +40,11 @@ router.register('quartos', QuartoViewSet, basename='quarto')
 router.register('ocupacoes', OcupacaoViewSet, basename='ocupacao')
 router.register('dados', DadosViewSet, basename='dados')
 router.register('comanda', ComandaViewSet, basename='comanda')
-router.register('header', CabecaViewSet, basename='header')
 router.register('patio', PatioViewSet, basename='patio')
 router.register('usuarios', UsuarioViewSet, basename='usuario')
 router.register('caixa', CaixaViewSet, basename='caixa')
 router.register('painel', PainelViewSet, basename='painel')
+router.register('header', CabecaViewSet, basename='header')
 
 urlpatterns = [
     path('admin/', admin.site.urls),

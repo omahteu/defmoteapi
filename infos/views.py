@@ -1,6 +1,6 @@
 from rest_framework import viewsets
-from header.models import Cabeca
-from header.serializer import CabecaSerializer
+from infos.models import Cabeca
+from infos.serializer import CabecaSerializer
 
 
 class CabecaViewSet(viewsets.ModelViewSet):

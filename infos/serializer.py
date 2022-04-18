@@ -1,5 +1,5 @@
 from rest_framework import serializers
-from header.models import Cabeca
+from infos.models import Cabeca
 
 
 class CabecaSerializer(serializers.ModelSerializer):

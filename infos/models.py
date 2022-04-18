@@ -8,4 +8,4 @@ class Cabeca(models.Model):
     quarto = models.CharField(max_length=2, blank=True)
 
     def __str__(self):
-        return self.quanrto
+        return self.quarto
