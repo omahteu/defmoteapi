@@ -37,6 +37,8 @@ INSTALLED_APPS = [
     "corsheaders",
     'caixa',
     'comanda',
+    'credito',
+    'debito',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
